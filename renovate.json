@@ -11,10 +11,12 @@
       "enabled": false
     },
     {
+      "matchBaseBranches": ["master"],
       "matchPackagePatterns": ["org.springframework.boot"],
       "enabled": true
     },
     {
+      "matchBaseBranches": ["master"],
       "matchPackagePatterns": ["alpine"],
       "enabled": true
     }
