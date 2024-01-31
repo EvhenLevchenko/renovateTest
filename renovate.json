@@ -13,7 +13,7 @@
       "enabled": true
     },
     {
-      "matchManagers": ["docker"]
+      "matchManagers": ["dockerfile"]
     }
   ]
 }
