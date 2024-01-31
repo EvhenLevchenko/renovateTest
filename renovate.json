@@ -15,7 +15,8 @@
       "enabled": true
     },
     {
-      "matchManagers": ["dockerfile"]
+      "matchPackagePatterns": ["alpine"],
+      "enabled": true
     }
   ]
 }
