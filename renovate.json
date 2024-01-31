@@ -5,11 +5,11 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["maven"],
+      "matchPackagePatterns": ["*"],
       "enabled": false
     },
     {
-      "matchPackageNames": ["org.springframework.boot"],
+      "matchPackagePatterns": ["org.springframework.boot"],
       "enabled": true
     }
   ]
