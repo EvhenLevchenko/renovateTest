@@ -3,8 +3,10 @@
   "extends": [
     "config:recommended"
   ],
+  "baseBranches": ["master", "develop"],
   "packageRules": [
     {
+      "matchBaseBranches": ["master", "develop"],
       "matchPackagePatterns": ["*"],
       "enabled": false
     },
