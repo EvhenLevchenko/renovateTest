@@ -9,7 +9,7 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["org.springframework.boot"],
+      "matchPackagePatterns": ["org.springframework.boot","alpine"],
       "enabled": true
     }
   ]
