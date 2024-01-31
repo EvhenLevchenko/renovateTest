@@ -9,8 +9,11 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["org.springframework.boot","alpine"],
+      "matchPackagePatterns": ["org.springframework.boot"],
       "enabled": true
+    },
+    {
+      "matchManagers": ["docker"]
     }
   ]
 }
