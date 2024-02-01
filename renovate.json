@@ -14,11 +14,6 @@
       "matchBaseBranches": ["master"],
       "matchPackageNames": ["org.springframework.boot:spring-boot-starter-parent"],
       "enabled": true
-    },
-    {
-      "matchBaseBranches": ["develop"],
-      "matchManagers": ["dockerfile"],
-      "enabled": true
     }
   ]
 }
