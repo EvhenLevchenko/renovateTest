@@ -16,7 +16,7 @@
     },
     {
       "matchBaseBranches": ["develop"],
-      "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["alpine"],
       "enabled": true
     }
   ]
