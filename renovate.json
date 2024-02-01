@@ -16,7 +16,6 @@
       "enabled": true
     },
     {
-      "matchBaseBranches": ["develop"],
       "matchManagers": ["dockerfile"],
       "enabled": true
     }
