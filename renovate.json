@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "prHourlyLimit": 100,
+  "baseBranches": ["master", "develop"],
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
