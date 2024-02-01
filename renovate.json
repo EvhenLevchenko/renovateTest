@@ -16,7 +16,7 @@
     },
     {
       "matchBaseBranches": ["develop"],
-      "matchPackageNames": ["alpine"],
+      "matchPackagePatterns": ["alpine"],
       "enabled": true
     }
   ]
