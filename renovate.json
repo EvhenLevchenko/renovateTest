@@ -4,21 +4,19 @@
     "config:recommended"
   ],
   "prHourlyLimit": 100,
-  "baseBranches": ["master", "develop"],
   "packageRules": [
     {
-      "matchBaseBranches": ["master", "develop"],
       "matchPackagePatterns": ["*"],
       "enabled": false
     },
     {
       "matchBaseBranches": ["master"],
-      "matchPackagePatterns": ["org.springframework.boot"],
+      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-parent"],
       "enabled": true
     },
     {
-      "matchBaseBranches": ["master"],
-      "matchPackagePatterns": ["alpine"],
+      "matchBaseBranches": ["develop"],
+      "matchManagers": ["dockerfile"],
       "enabled": true
     }
   ]
