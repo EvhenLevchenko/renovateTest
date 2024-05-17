@@ -79,10 +79,9 @@
                     <execution>
                         <id>base</id>
                         <phase>package</phase>
-                        <goals></goals>
                         <configuration>
                             <from>
-                                <image>micros-java-21:1.0.7</image>
+                                <image>openjdk:11.0.10-jre</image>
                             </from>
                         </configuration>
                     </execution>
