@@ -81,7 +81,7 @@
                         <phase>package</phase>
                         <configuration>
                             <from>
-                                <image>openjdk:11.0.10-jre</image>
+                                <image>micros-java-21:1.0.7</image>
                             </from>
                         </configuration>
                     </execution>
