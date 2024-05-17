@@ -81,7 +81,7 @@
                         <goals></goals>
                         <configuration>
                             <from>
-                                <image>nginx:1.21.0</image>
+                                <image>openjdk:11.0.9-jre</image> <!-- this should be updated -->
                             </from>
                         </configuration>
                     </execution>
