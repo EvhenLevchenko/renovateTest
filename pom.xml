@@ -19,6 +19,7 @@
     <properties>
         <java.version>17</java.version>
         <jib.maven.plugin.version>3.4.2</jib.maven.plugin.version>
+        <java.version>11.0.2-jre</java.version>
     </properties>
 
     <dependencies>
@@ -81,7 +82,7 @@
                         <goals></goals>
                         <configuration>
                             <from>
-                                <image>openjdk:11.0.16-jre</image>
+                                <image>openjdk:${java.version}</image>
                             </from>
                         </configuration>
                     </execution>
