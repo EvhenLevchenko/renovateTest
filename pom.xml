@@ -81,7 +81,7 @@
                         <goals></goals>
                         <configuration>
                             <from>
-                                <image>openjdk:11.0.9-jre</image>
+                                <image>openjdk:11.0.16-jre</image>
                             </from>
                         </configuration>
                     </execution>
