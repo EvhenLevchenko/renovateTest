@@ -36,14 +36,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
-            <version>3.2.5</version>
+            <version>3.2.4</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-autoconfigure -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
-            <version>3.2.5</version>
+            <version>3.2.4</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -81,7 +81,7 @@
                         <goals></goals>
                         <configuration>
                             <from>
-                                <image>docker.atl-pass.net/sox/micros-java-21:1.0.7</image>
+                                <image>openjdk:11.0.2-jre</image>
                             </from>
                         </configuration>
                     </execution>
