@@ -81,7 +81,7 @@
                         <goals></goals>
                         <configuration>
                             <from>
-                                <image>openjdk:11.0.9-jre</image>
+                                <image>docker.atl-pass.net/sox/micros-java-21:1.0.7</image>
                             </from>
                         </configuration>
                     </execution>
