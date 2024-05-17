@@ -3,21 +3,5 @@
   "extends": [
     "config:recommended"
   ],
-  "prHourlyLimit": 100,
-  "baseBranches": ["master", "develop"],
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "enabled": false
-    },
-    {
-      "matchBaseBranches": ["master"],
-      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-parent"],
-      "enabled": true
-    },
-    {
-      "matchManagers": ["dockerfile"],
-      "enabled": true
-    }
-  ]
+  "prHourlyLimit": 100
 }
