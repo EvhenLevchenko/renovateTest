@@ -8,7 +8,7 @@
     {
       "matchDatasources": ["maven"],
       "registryUrls": [
-        "https://docker.atl-pass.net"
+        "https://docker.atl-pass.net/sox"
       ]
     }
   ],
