@@ -4,14 +4,6 @@
     "config:recommended"
   ],
   "prHourlyLimit": 100,
-  "packageRules": [
-    {
-      "matchDatasources": ["maven"],
-      "registryUrls": [
-        "https://docker.atl-pass.net/sox"
-      ]
-    }
-  ],
   "regexManagers": [
     {
       "description": "maven-jib",
