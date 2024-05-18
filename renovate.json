@@ -18,7 +18,7 @@
 
       ],
       "datasourceTemplate": "docker",
-      "registryUrlTemplate": ["https://packages.atlassian.com/maven/repository/internal"]
+      "registryUrlTemplate": ["https://docker.atl-pass.net/"]
 
     }
   ]
