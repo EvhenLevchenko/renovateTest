@@ -3,6 +3,10 @@
   "extends": [
     "config:recommended"
   ],
+  "packageRules": [{
+    "matchDatasources": ["docker"],
+    "registryUrls": ["https://packages.atlassian.com/maven/repository/internal"] }
+  ],
   "prHourlyLimit": 100,
   "regexManagers": [
     {
@@ -16,8 +20,6 @@
         "<from>\\s*<image>\\s*(?<registryUrl>.*\\/)(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/image>\\s*<\/from>"
 
       ],
-      "datasourceTemplate": "docker",
-      "registryUrls":["https://packages.atlassian.com/maven/repository/internal"]
-    }
+      "datasourceTemplate": "docker"}
   ]
 }
