@@ -4,6 +4,14 @@
     "config:recommended"
   ],
   "prHourlyLimit": 100,
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "registryUrls": [
+        "https://docker.atl-pass.net"
+      ]
+    }
+  ],
   "regexManagers": [
     {
       "description": "maven-jib",
@@ -12,7 +20,9 @@
       ],
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "<from>\\s*<image>\\s*(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/image>\\s*<\/from>"
+        "<from>\\s*<image>\\s*(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/image>\\s*<\/from>",
+        "<from>\\s*<image>\\s*(?<registryUrl>.*\\/)(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/image>\\s*<\/from>"
+
       ],
       "datasourceTemplate": "docker"
     }

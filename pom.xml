@@ -81,7 +81,7 @@
                         <phase>package</phase>
                         <configuration>
                             <from>
-                                <image>micros-java-21:1.0.7</image>
+                                <image>docker.atl-pass.net/sox/micros-java-21:1.0.7</image>
                             </from>
                         </configuration>
                     </execution>
