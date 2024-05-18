@@ -16,7 +16,8 @@
         "<from>\\s*<image>\\s*(?<registryUrl>.*\\/)(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/image>\\s*<\/from>"
 
       ],
-      "datasourceTemplate": "docker"
+      "datasourceTemplate": "docker",
+      "registryUrls":["https://packages.atlassian.com/maven/repository/internal"]
     }
   ]
 }
